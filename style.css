@@ -1,7 +1,7 @@
 @font-face {
     font-family: Syne;
     font-weight: 900;
-    src: url(syne-extra.otf);
+    src: url(assets/Syne-Extra.otf);
 }
 
 body {
@@ -31,4 +31,8 @@ a {
 
 h1, a {
     mix-blend-mode: difference;
+}
+
+canvas {
+    vertical-align: bottom;
 }
