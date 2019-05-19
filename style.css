@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Syne;
+    font-weight: 900;
+    src: url(syne-extra.otf);
+}
+
+body {
+    font-family: Syne;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.25;
+
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    position: fixed;
+    top: 48px;
+    left: 48px;
+    z-index: 1;
+}
+
+a {
+    position: fixed;
+    top: 48px;
+    right: 48px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1, a {
+    mix-blend-mode: difference;
+}
